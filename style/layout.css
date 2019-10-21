@@ -1,0 +1,21 @@
+#map-container {
+	position: relative;
+	width: 100%;
+}
+
+.legend {
+	padding: 6px 8px;
+	font: 14px Arial, Helvetica, sans-serif;
+	background: #f7fbff;
+	line-height: 24px;
+	color: #555;
+	border-radius: 8px;
+	opacity: 0.8;
+}
+
+.legend i {
+	width: 20px;
+	height: 20px;
+	float: left;
+	margin-right: 8px;
+}
