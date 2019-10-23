@@ -1,6 +1,6 @@
 const mapID = "map-container";
 
-d3.select("#"+"map-container")
+d3.select("#"+mapID)
 	.style("height", mapContainerHeight + "px");
 
 var base_map = L.map(mapID).setView(initLoc, initZoom);
@@ -9,16 +9,6 @@ var base_map = L.map(mapID).setView(initLoc, initZoom);
 base_map.createPane('labels');
 base_map.getPane('labels').style.zIndex = 650;
 base_map.getPane('labels').style.pointerEvents = 'none';
-
-// mbAttr = '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="http://cartodb.com/attributions">CartoDB</a>'
-// mbUrl = 'http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png';
-
-// L.tileLayer(mbUrl, {id: 'mapbox.streets', attribution: mbAttr}).addTo(base_map);
-
-// L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}', {
-// 	attribution: 'Tiles &copy; Esri &mdash; Esri, DeLorme, NAVTEQ',
-// 	maxZoom: 16
-// }).addTo(base_map);
 
 // base layer without labels
 L.tileLayer('https://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}.png', {
@@ -34,9 +24,30 @@ L.tileLayer('https://{s}.basemaps.cartocdn.com/light_only_labels/{z}/{x}/{y}.png
 }).addTo(base_map);
 
 d3.queue()
-	.defer(d3.json, "data/countries.geojson")
-	.defer(d3.csv, "data/mig_data.csv")
-	.await((err, country_geojson, migData) => {
+	.defer(d3.json, topologyFile)
+	.defer(d3.csv, migFile)
+    .defer(d3.json, tradeNetFile)
+    .defer(d3.csv, migDistFile)
+	.await((err, country_geojson, migData, tradeNet, countryMigDist) => {
+
+        /*
+            country_geojson: topology for boundries
+            migData: Facebook aggregated data for obtained countries
+            tradeNet: trade network between countries
+            countryMigDist: migration distribution to various destinations for a specific country
+        */
+
+        var controller = new SimF("#netSVG");
+
+        var ISO_map = {}
+        country_geojson.features.map((d) => {
+        	ISO_map[d.properties["ISO_A3"]] = d.properties["ISO_A2"];
+        });
+
+        var name_map = {}
+        country_geojson.features.map((d) => {
+        	name_map[d.properties["ISO_A3"]] = d.properties["ADMIN"];
+        });
 
   		function onEachFeatureClosure() {
 		    return function onEachFeature(feature, layer) {
@@ -60,6 +71,21 @@ d3.queue()
 				    	// move popup
 						var popup = e.target.getPopup().setLatLng(e.latlng);
 					});
+
+                    layer.on("click", function(e) {
+                        let ISO_A3 = e.target.feature.properties["ISO_A3"];
+                        let ISO_A2 = e.target.feature.properties["ISO_A2"];
+
+                        let egoNet = extractEgo(tradeNet, ISO_A3);
+
+                        let table = displayTable(migDistTable, countryMigDist, ""); 
+
+                        updateNet(extractEgo(_.cloneDeep(tradeNet), ISO_A3), controller, table, ISO_map);
+
+                        $("#cName").text(name_map[ISO_A3] + " Trade Network -- Bigger Area For Import, Darker Colors For Export Magnitude");
+
+                    });
+
 			    }
 		    }
 		}

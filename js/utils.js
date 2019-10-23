@@ -25,7 +25,7 @@ function changeLegend(layerName, legendSvg) {
 	//  move legend to bottom
 	let g = svg.append("g")
 	  .attr("class", "legendLinear")
-	  .attr("transform", "translate(20,20)");
+	  .attr("transform", "translate(10,10)");
 
 	g.selectAll("legend-rects")
 	  .data(boxSequence)
@@ -34,8 +34,8 @@ function changeLegend(layerName, legendSvg) {
 	  	.attr("class", "legend-rect")
 	  	.attr("height", 20)
 	  	.attr("width", 20)
-	    .attr("x", function(d,i){ return 5 + i*25})
-	    .attr("y", 4)
+	    .attr("x", function(d,i){ return 10 + i*25})
+	    .attr("y", 2)
 	    .style("fill", function(d, i){ return layerInterpolator[layerName](i/(len-1))});
 
 	g.selectAll("legend-labels")
@@ -44,9 +44,48 @@ function changeLegend(layerName, legendSvg) {
 	  .append("text")
 	    .attr("x", function(d,i){ return 12 + i*25})
 	    .attr("y", 35)
-	    .text(function(d){ return d})
+	    .text(function(d){ return "Q"+d;})
 	    .attr("text-anchor", "left")
 	    .style("alignment-baseline", "middle")
 	    .style("font-weight", "bold")
 	    .style("font-family", "Open Sans");
+}
+
+function extractEgo(net, countryCode) {
+
+    // countryCode: selected country code of ISO_A3 type
+
+    let nodes = net.nodes;
+    let edges = net.links;
+
+    let egoEdges = _.filter(edges, (edge) => { 
+        return edge["source"].toLowerCase() == countryCode.toLowerCase()
+    });    
+
+    let rNodes = egoEdges.map((e)=>e["target"].toLowerCase());
+    
+    let egoNodes = _.filter(nodes, (node) => {
+        return ( _.includes(rNodes, node["id"].toLowerCase())) || (node["id"].toLowerCase() == countryCode.toLowerCase()); 
+    });
+
+    return {"nodes": egoNodes, "links": egoEdges};
+
+}
+
+function displayTable(tableDiv, migDistData, countryCode) {
+
+    // countryCode: selected country code of ISO_A2 type
+
+    var table = new Tabulator(tableDiv, {
+    	index:"Country_Code",
+        height:statContainerHeight + "px",
+        selectable:1,
+        scrollToRowPosition: "center",
+        layout: "fitColumns",
+        columns: tableColumns 
+    });
+
+    table.setData(migDistData); 
+
+    return table;
 }

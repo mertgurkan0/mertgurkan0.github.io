@@ -45,6 +45,8 @@
 
 	<script type="text/javascript" src="libs/d3-legend.min.js"></script>
 
+    <script src="libs/d3-force-sampled.js"></script>
+
 	<link rel="stylesheet" href="style/layout.css">
 
 </head>
@@ -62,12 +64,27 @@
         </div>
 
         <div class="row" id="stats-container">
+
+            <div class="col-sm-5 col-md-5 col-lg-5" id="netContainer">
+
+            	<span class="badge badge-secondary" id="cName"></span>
+                <svg id="netSVG"></svg>
+
+            </div>
+
+            <div class="col-sm-7 col-md-7 col-lg-7" id="MigDistContainer">
+
+                <div id="migDistTable"></div>        
+
+            </div>
+
         </div>
 
 	</div>
 
 	<script src="js/constants.js"></script>
-	<script src="js/utils.js"></script>
+	<script src="js/utils.js"></script> 
+	<script src="js/net.js"></script>
 	<script src="js/map.js"></script>
 
 </body>
