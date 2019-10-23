@@ -35,7 +35,7 @@ function SimF(svgname) {
 
     this.simulation_ego = d3.forceSimulation()
         .force("link", d3.forceLink().id(function(d) {return d.id;}))
-        .force("charge", d3.forceManyBodySampled().strength(-300))
+        .force("charge", d3.forceManyBodySampled().strength(-350))
         .force('forceX', d3.forceX().strength(0.001))
         .force('forceY', d3.forceY().strength(0.001))
         .force('center', d3.forceCenter(0,0))
@@ -127,7 +127,7 @@ function updateNet(net, cont, table, ISO_map) {
             return "l" + d.source + "_" + d.target;
         })
         .attr("stroke-width", function(d) {
-            return 1;
+            return 0.5;
         })
         .attr("stroke", linkColor)
         .merge(ego_link);

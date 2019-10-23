@@ -46,4 +46,4 @@ const tableColumns = [
 
 const tableDivName = "#migDistTable";
 
-const linkColor = "#525252";
+const linkColor = "#737373";
