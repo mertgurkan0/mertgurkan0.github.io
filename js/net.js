@@ -36,14 +36,10 @@ function SimF(svgname) {
     this.simulation_ego = d3.forceSimulation()
         .force("link", d3.forceLink().id(function(d) {return d.id;}))
         .force("charge", d3.forceManyBodySampled().strength(-350))
-        .force('forceX', d3.forceX().strength(0.001))
-        .force('forceY', d3.forceY().strength(0.001))
+        .force('forceX', d3.forceX())
+        .force('forceY', d3.forceY())
         .force('center', d3.forceCenter(0,0))
-        .force('collision', d3.forceCollide().radius(function(d) {
-            return d.radius
-        }))
-        .alpha(1)
-        .velocityDecay(0.2);
+        .force('collision', d3.forceCollide().radius((d) => d.radius));
 
     this.dragStarted = d => {
         if (!d3.event.active) this.simulation_ego.alphaTarget(0.003).restart();
@@ -114,8 +110,6 @@ function updateNet(net, cont, table, ISO_map) {
             .on("drag", cont.dragged)
             .on("end", cont.dragEnded));
 
-    //ego_node = ego_node.append("circle").attr("fill", "blue").attr("r", 8);
-
     let ego_link = cont.ego_g.selectAll("g.links").selectAll("line").data(links, function(d) {
         return "l" + d.source + "_" + d.target;
     });
@@ -134,7 +128,6 @@ function updateNet(net, cont, table, ISO_map) {
 
     cont.simulation_ego.nodes(nodes).on("tick", ticked);
     cont.simulation_ego.force("link").links(links);
-    //simulation.force("charge", d3.forceManyBody().strength(-150)).restart();
     cont.simulation_ego.alpha(0.5).restart();
 
     function ticked() {
