@@ -84,6 +84,18 @@ d3.queue()
 
                         $("#cName").text(name_map[ISO_A3] + " Trade Network -- Bigger Area For Import, Darker Colors For Export Magnitude");
 
+                        let mapLayers = base_map._layers;
+                        for (l in mapLayers) {
+                        	clayer = mapLayers[l];
+                        	console.log(clayer);
+
+                        	if ("feature" in clayer) {
+                        		clayer.setStyle({color: "#f0f0f0"});
+                        	}
+                        }
+
+                        layer.setStyle({color: "red"});
+
                     });
 
 			    }

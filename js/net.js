@@ -17,7 +17,7 @@ function SimF(svgname) {
 
     this.ego_g = this.ego_svg.append("g")
         .attr("class", "tradeNets")
-        .attr("transform","translate(0,-10) scale(.6,.6)");
+        .attr("transform","translate(0,-10) scale(1.2, 1.2)");
 
     this.ego_g.append("g")
         .attr("class", "nodes");
@@ -31,7 +31,7 @@ function SimF(svgname) {
         });
 
     this.zoom_handler_ego(this.ego_svg);
-    this.ego_svg.call(this.zoom_handler_ego.transform, d3.zoomIdentity.translate(0, 0).scale(0.6));
+    this.ego_svg.call(this.zoom_handler_ego.transform, d3.zoomIdentity.translate(0, 0).scale(1.2));
 
     this.simulation_ego = d3.forceSimulation()
         .force("link", d3.forceLink().id(function(d) {return d.id;}))
@@ -121,7 +121,7 @@ function updateNet(net, cont, table, ISO_map) {
             return "l" + d.source + "_" + d.target;
         })
         .attr("stroke-width", function(d) {
-            return 0.5;
+            return 1;
         })
         .attr("stroke", linkColor)
         .merge(ego_link);

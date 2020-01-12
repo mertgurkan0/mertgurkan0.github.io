@@ -38,9 +38,19 @@ const layerInterpolator = {
 const tableColumns = [
     {"title": "Country", "field": "Country_Names", "align": "center"},
     {"title": "Daily Audience", "field": "Daily_Audience", "align": "center"},
-    {"title": "Norm. Daily Audience", "field": "Daily_Audience_Per", "align": "center"},
+    {"title": "Norm. Daily Audience", "field": "Daily_Audience_Per", "align": "center", formatter:"money", formatterParams:{
+		    decimal:".",
+		    thousand:",",
+		    precision:2
+		}
+	},
     {"title": "Monthly Audience", "field": "Monthly_Audience", "align": "center"},
-    {"title": "Norm. Monthly Audience", "field": "Monthly_Audience_Per", "align": "center"}
+    {"title": "Norm. Monthly Audience", "field": "Monthly_Audience_Per", "align": "center", formatter:"money", formatterParams:{
+		    decimal:".",
+		    thousand:",",
+		    precision:2
+		}
+	}
 
 ];
 

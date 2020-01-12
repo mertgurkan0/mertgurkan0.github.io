@@ -20,7 +20,7 @@ function changeLegend(layerName, legendSvg) {
 	let len = 5;
 	var boxSequence = d3.range(len);
 
-	var svg = d3.select(legendSvg);
+	var svg = d3.select(legendSvg).attr("transform", "translate(0,10)");
 
 	//  move legend to bottom
 	let g = svg.append("g")
@@ -34,17 +34,22 @@ function changeLegend(layerName, legendSvg) {
 	  	.attr("class", "legend-rect")
 	  	.attr("height", 20)
 	  	.attr("width", 20)
-	    .attr("x", function(d,i){ return 10 + i*25})
+	    .attr("x", (d,i) => { return 10 + i*20})
 	    .attr("y", 2)
-	    .style("fill", function(d, i){ return layerInterpolator[layerName](i/(len-1))});
+	    .style("fill", (d, i) => { return layerInterpolator[layerName](i/(len-1))});
 
 	g.selectAll("legend-labels")
 	  .data(boxSequence)
 	  .enter()
 	  .append("text")
-	    .attr("x", function(d,i){ return 12 + i*25})
+	    .attr("x", (d,i) => { return 2 + i*20})
 	    .attr("y", 35)
-	    .text(function(d){ return "Q"+d;})
+	    .text(d => {
+	    	if (d == 0)
+	    		return "Low";
+	    	else if (d == 4)
+	    		return "High";
+	    })
 	    .attr("text-anchor", "left")
 	    .style("alignment-baseline", "middle")
 	    .style("font-weight", "bold")
