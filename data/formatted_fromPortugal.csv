@@ -1,0 +1,497 @@
+From,Country_Code,country_name,Gender,Min_Age,Max_Age,Daily_Audience,Monthly_Audience,Timestamp,Daily_Audience_cats
+Portugal,AD,Andorra,1,13,65,2011,2300,1571760935,4
+Portugal,AE,United Arab Emirates,1,13,65,776,1000,1571760935,3
+Portugal,AF,Afghanistan,1,13,65,994,1000,1571760935,4
+Portugal,AG,Antigua,1,13,65,0,1000,1571760935,0
+Portugal,AI,Anguilla,1,13,65,0,1000,1571760935,0
+Portugal,AL,Albania,1,13,65,0,1000,1571760935,0
+Portugal,AM,Armenia,1,13,65,0,1000,1571760935,0
+Portugal,AN,Netherlands Antilles,1,13,65,0,1000,1571760935,0
+Portugal,AO,Angola,1,13,65,5299,12000,1571760935,4
+Portugal,AQ,Antarctica,1,13,65,0,1000,1571760935,0
+Portugal,AR,Argentina,1,13,65,686,1100,1571760935,3
+Portugal,AS,American Samoa,1,13,65,0,1000,1571760935,0
+Portugal,AT,Austria,1,13,65,887,1000,1571760935,4
+Portugal,AU,Australia,1,13,65,1175,1900,1571760935,4
+Portugal,AW,Aruba,1,13,65,0,1000,1571760935,0
+Portugal,AX,Aland Islands,1,13,65,0,1000,1571760935,0
+Portugal,AZ,Azerbaijan,1,13,65,0,1000,1571760935,0
+Portugal,BA,Bosnia and Herzegovina,1,13,65,0,1000,1571760935,0
+Portugal,BB,Barbados,1,13,65,989,1000,1571760935,4
+Portugal,BD,Bangladesh,1,13,65,554,1000,1571760935,3
+Portugal,BE,Belgium,1,13,65,6551,8500,1571760935,4
+Portugal,BF,Burkina Faso,1,13,65,0,1000,1571760935,0
+Portugal,BG,Bulgaria,1,13,65,497,1000,1571760935,3
+Portugal,BH,Bahrain,1,13,65,0,1000,1571760935,0
+Portugal,BI,Burundi,1,13,65,0,1000,1571760935,0
+Portugal,BJ,Benin,1,13,65,180,1900,1571760935,3
+Portugal,BL,Saint Barthélemy,1,13,65,994,1000,1571760935,4
+Portugal,BM,Bermuda,1,13,65,554,1000,1571760935,3
+Portugal,BN,Brunei,1,13,65,0,1000,1571760935,0
+Portugal,BO,Bolivia,1,13,65,332,1000,1571760935,3
+Portugal,BQ,"Bonaire, Sint Eustatius and Saba",1,13,65,0,1000,1571760935,0
+Portugal,BR,Brazil,1,13,65,27687,47000,1571760935,4
+Portugal,BS,The Bahamas,1,13,65,0,1000,1571760935,0
+Portugal,BT,Bhutan,1,13,65,0,1000,1571760935,0
+Portugal,BV,Bouvet Island,1,13,65,0,1000,1571760935,0
+Portugal,BW,Botswana,1,13,65,994,1000,1571760935,4
+Portugal,BY,Belarus,1,13,65,0,1000,1571760935,0
+Portugal,BZ,Belize,1,13,65,0,1000,1571760935,0
+Portugal,CA,Canada,1,13,65,11811,15000,1571760935,4
+Portugal,CC,Cocos (Keeling) Islands,1,13,65,0,1000,1571760935,0
+Portugal,CD,Democratic Republic of the Congo,1,13,65,0,1000,1571760935,0
+Portugal,CF,Central African Republic,1,13,65,0,1000,1571760935,0
+Portugal,CG,Republic of the Congo,1,13,65,0,1000,1571760935,0
+Portugal,CH,Switzerland,1,13,65,43403,54000,1571760935,4
+Portugal,CI,Côte d'Ivoire,1,13,65,199,1000,1571760935,3
+Portugal,CK,Cook Islands,1,13,65,0,1000,1571760935,0
+Portugal,CL,Chile,1,13,65,749,1000,1571760935,3
+Portugal,CM,Cameroon,1,13,65,0,1000,1571760935,0
+Portugal,CN,China,1,13,65,0,1000,1571760935,0
+Portugal,CO,Colombia,1,13,65,732,1100,1571760935,3
+Portugal,CR,Costa Rica,1,13,65,989,1000,1571760935,4
+Portugal,AD,Andorra,2,13,65,2099,2300,1571760935,4
+Portugal,AE,United Arab Emirates,2,13,65,798,1000,1571760935,3
+Portugal,AF,Afghanistan,2,13,65,0,1000,1571760935,0
+Portugal,AG,Antigua,2,13,65,0,1000,1571760935,0
+Portugal,AI,Anguilla,2,13,65,0,1000,1571760935,0
+Portugal,AL,Albania,2,13,65,0,1000,1571760935,0
+Portugal,AM,Armenia,2,13,65,0,1000,1571760935,0
+Portugal,AN,Netherlands Antilles,2,13,65,0,1000,1571760935,0
+Portugal,AO,Angola,2,13,65,3006,6500,1571760935,4
+Portugal,AQ,Antarctica,2,13,65,0,1000,1571760935,0
+Portugal,AR,Argentina,2,13,65,749,1000,1571760935,3
+Portugal,AS,American Samoa,2,13,65,0,1000,1571760935,0
+Portugal,AT,Austria,2,13,65,748,1000,1571760935,3
+Portugal,AU,Australia,2,13,65,1945,2200,1571760935,4
+Portugal,AW,Aruba,2,13,65,0,1000,1571760935,0
+Portugal,AX,Aland Islands,2,13,65,0,1000,1571760935,0
+Portugal,AZ,Azerbaijan,2,13,65,0,1000,1571760935,0
+Portugal,BA,Bosnia and Herzegovina,2,13,65,0,1000,1571760935,0
+Portugal,BB,Barbados,2,13,65,0,1000,1571760935,0
+Portugal,BD,Bangladesh,2,13,65,0,1000,1571760935,0
+Portugal,BE,Belgium,2,13,65,5326,6500,1571760935,4
+Portugal,BF,Burkina Faso,2,13,65,0,1000,1571760935,0
+Portugal,BG,Bulgaria,2,13,65,0,1000,1571760935,0
+Portugal,BH,Bahrain,2,13,65,0,1000,1571760935,0
+Portugal,BI,Burundi,2,13,65,989,1000,1571760935,4
+Portugal,BJ,Benin,2,13,65,122,1100,1571760935,3
+Portugal,BL,Saint Barthélemy,2,13,65,996,1000,1571760935,4
+Portugal,BM,Bermuda,2,13,65,0,1000,1571760935,0
+Portugal,BN,Brunei,2,13,65,0,1000,1571760935,0
+Portugal,BO,Bolivia,2,13,65,994,1000,1571760935,4
+Portugal,BQ,"Bonaire, Sint Eustatius and Saba",2,13,65,0,1000,1571760935,0
+Portugal,BR,Brazil,2,13,65,30801,46000,1571760935,4
+Portugal,BS,The Bahamas,2,13,65,0,1000,1571760935,0
+Portugal,BT,Bhutan,2,13,65,0,1000,1571760935,0
+Portugal,BV,Bouvet Island,2,13,65,0,1000,1571760935,0
+Portugal,BW,Botswana,2,13,65,0,1000,1571760935,0
+Portugal,BY,Belarus,2,13,65,0,1000,1571760935,0
+Portugal,BZ,Belize,2,13,65,0,1000,1571760935,0
+Portugal,CA,Canada,2,13,65,14965,18000,1571760935,4
+Portugal,CC,Cocos (Keeling) Islands,2,13,65,0,1000,1571760935,0
+Portugal,CD,Democratic Republic of the Congo,2,13,65,0,1000,1571760935,0
+Portugal,CF,Central African Republic,2,13,65,0,1000,1571760935,0
+Portugal,CG,Republic of the Congo,2,13,65,989,1000,1571760935,4
+Portugal,CH,Switzerland,2,13,65,41440,49000,1571760935,4
+Portugal,CI,Côte d'Ivoire,2,13,65,249,1000,1571760935,3
+Portugal,CK,Cook Islands,2,13,65,0,1000,1571760935,0
+Portugal,CL,Chile,2,13,65,994,1000,1571760935,4
+Portugal,CM,Cameroon,2,13,65,497,1000,1571760935,3
+Portugal,CN,China,2,13,65,199,1000,1571760935,3
+Portugal,CO,Colombia,2,13,65,831,1000,1571760935,3
+Portugal,CR,Costa Rica,2,13,65,0,1000,1571760935,0
+Portugal,CV,Cape Verde,1,13,65,2037,3300,1571760935,4
+Portugal,CW,Curaçao,1,13,65,0,1000,1571760935,0
+Portugal,CX,Christmas Island,1,13,65,0,1000,1571760935,0
+Portugal,CY,Cyprus,1,13,65,0,1000,1571760935,0
+Portugal,CZ,Czech Republic,1,13,65,0,1000,1571760935,0
+Portugal,DE,Germany,1,13,65,10181,14000,1571760935,4
+Portugal,DJ,Djibouti,1,13,65,0,1000,1571760935,0
+Portugal,DK,Denmark,1,13,65,994,1000,1571760935,4
+Portugal,DM,Dominica,1,13,65,0,1000,1571760935,0
+Portugal,DO,Dominican Republic,1,13,65,249,1000,1571760935,3
+Portugal,DZ,Algeria,1,13,65,1451,2500,1571760935,4
+Portugal,EC,Ecuador,1,13,65,664,1000,1571760935,3
+Portugal,EE,Estonia,1,13,65,0,1000,1571760935,0
+Portugal,EG,Egypt,1,13,65,199,1000,1571760935,3
+Portugal,EH,Western Sahara,1,13,65,0,1000,1571760935,0
+Portugal,ER,Eritrea,1,13,65,0,1000,1571760935,0
+Portugal,ES,Spain,1,13,65,11318,15000,1571760935,4
+Portugal,ET,Ethiopia,1,13,65,249,1000,1571760935,3
+Portugal,FI,Finland,1,13,65,748,1000,1571760935,3
+Portugal,FJ,Fiji,1,13,65,0,1000,1571760935,0
+Portugal,FK,Falkland Islands,1,13,65,0,1000,1571760935,0
+Portugal,FM,Federated States of Micronesia,1,13,65,0,1000,1571760935,0
+Portugal,FO,Faroe Islands,1,13,65,0,1000,1571760935,0
+Portugal,FR,France,1,13,65,86693,110000,1571760935,4
+Portugal,GA,Gabon,1,13,65,199,1000,1571760935,3
+Portugal,GB,United Kingdom,1,13,65,18068,26000,1571760935,4
+Portugal,GD,Grenada,1,13,65,0,1000,1571760935,0
+Portugal,GE,Georgia,1,13,65,0,1000,1571760935,0
+Portugal,GF,French Guiana,1,13,65,0,1000,1571760935,0
+Portugal,GG,Guernsey,1,13,65,399,1000,1571760935,3
+Portugal,GH,Ghana,1,13,65,624,1000,1571760935,3
+Portugal,GI,Gibraltar,1,13,65,497,1000,1571760935,3
+Portugal,GL,Greenland,1,13,65,0,1000,1571760935,0
+Portugal,GM,The Gambia,1,13,65,0,1000,1571760935,0
+Portugal,GN,Guinea,1,13,65,498,1000,1571760935,3
+Portugal,GP,Guadeloupe,1,13,65,0,1000,1571760935,0
+Portugal,GQ,Equatorial Guinea,1,13,65,0,1000,1571760935,0
+Portugal,GR,Greece,1,13,65,994,1000,1571760935,4
+Portugal,GS,South Georgia and the South Sandwich Islands,1,13,65,0,1000,1571760935,0
+Portugal,GT,Guatemala,1,13,65,996,1000,1571760935,4
+Portugal,GU,Guam,1,13,65,0,1000,1571760935,0
+Portugal,GW,Guinea-Bissau,1,13,65,399,1000,1571760935,3
+Portugal,GY,Guyana,1,13,65,0,1000,1571760935,0
+Portugal,HK,Hong Kong,1,13,65,0,1000,1571760935,0
+Portugal,HM,Heard Island and McDonald Islands,1,13,65,0,1000,1571760935,0
+Portugal,HN,Honduras,1,13,65,996,1000,1571760935,4
+Portugal,HR,Croatia,1,13,65,0,1000,1571760935,0
+Portugal,HT,Haiti,1,13,65,0,1000,1571760935,0
+Portugal,HU,Hungary,1,13,65,994,1000,1571760935,4
+Portugal,CV,Cape Verde,2,13,65,1895,2900,1571760935,4
+Portugal,CW,Curaçao,2,13,65,497,1000,1571760935,3
+Portugal,CX,Christmas Island,2,13,65,0,1000,1571760935,0
+Portugal,CY,Cyprus,2,13,65,0,1000,1571760935,0
+Portugal,CZ,Czech Republic,2,13,65,497,1000,1571760935,3
+Portugal,DE,Germany,2,13,65,9095,12000,1571760935,4
+Portugal,DJ,Djibouti,2,13,65,0,1000,1571760935,0
+Portugal,DK,Denmark,2,13,65,497,1000,1571760935,3
+Portugal,DM,Dominica,2,13,65,0,1000,1571760935,0
+Portugal,DO,Dominican Republic,2,13,65,0,1000,1571760935,0
+Portugal,DZ,Algeria,2,13,65,544,1000,1571760935,3
+Portugal,EC,Ecuador,2,13,65,994,1000,1571760935,4
+Portugal,EE,Estonia,2,13,65,0,1000,1571760935,0
+Portugal,EG,Egypt,2,13,65,399,1000,1571760935,3
+Portugal,EH,Western Sahara,2,13,65,0,1000,1571760935,0
+Portugal,ER,Eritrea,2,13,65,0,1000,1571760935,0
+Portugal,ES,Spain,2,13,65,9580,13000,1571760935,4
+Portugal,ET,Ethiopia,2,13,65,0,1000,1571760935,0
+Portugal,FI,Finland,2,13,65,0,1000,1571760935,0
+Portugal,FJ,Fiji,2,13,65,994,1000,1571760935,4
+Portugal,FK,Falkland Islands,2,13,65,0,1000,1571760935,0
+Portugal,FM,Federated States of Micronesia,2,13,65,0,1000,1571760935,0
+Portugal,FO,Faroe Islands,2,13,65,0,1000,1571760935,0
+Portugal,FR,France,2,13,65,88297,110000,1571760935,4
+Portugal,GA,Gabon,2,13,65,0,1000,1571760935,0
+Portugal,GB,United Kingdom,2,13,65,21315,27000,1571760935,4
+Portugal,GD,Grenada,2,13,65,0,1000,1571760935,0
+Portugal,GE,Georgia,2,13,65,994,1000,1571760935,4
+Portugal,GF,French Guiana,2,13,65,989,1000,1571760935,4
+Portugal,GG,Guernsey,2,13,65,989,1000,1571760935,4
+Portugal,GH,Ghana,2,13,65,0,1000,1571760935,0
+Portugal,GI,Gibraltar,2,13,65,0,1000,1571760935,0
+Portugal,GL,Greenland,2,13,65,0,1000,1571760935,0
+Portugal,GM,The Gambia,2,13,65,0,1000,1571760935,0
+Portugal,GN,Guinea,2,13,65,0,1000,1571760935,0
+Portugal,GP,Guadeloupe,2,13,65,0,1000,1571760935,0
+Portugal,GQ,Equatorial Guinea,2,13,65,0,1000,1571760935,0
+Portugal,GR,Greece,2,13,65,989,1000,1571760935,4
+Portugal,GS,South Georgia and the South Sandwich Islands,2,13,65,0,1000,1571760935,0
+Portugal,GT,Guatemala,2,13,65,989,1000,1571760935,4
+Portugal,GU,Guam,2,13,65,0,1000,1571760935,0
+Portugal,GW,Guinea-Bissau,2,13,65,498,1000,1571760935,3
+Portugal,GY,Guyana,2,13,65,0,1000,1571760935,0
+Portugal,HK,Hong Kong,2,13,65,497,1000,1571760935,3
+Portugal,HM,Heard Island and McDonald Islands,2,13,65,0,1000,1571760935,0
+Portugal,HN,Honduras,2,13,65,0,1000,1571760935,0
+Portugal,HR,Croatia,2,13,65,0,1000,1571760935,0
+Portugal,HT,Haiti,2,13,65,994,1000,1571760935,4
+Portugal,HU,Hungary,2,13,65,994,1000,1571760935,4
+Portugal,CV,Cape Verde,1,13,65,2037,3300,1571760935,4
+Portugal,ID,Indonesia,1,13,65,4552,7700,1571760935,4
+Portugal,IE,Ireland,1,13,65,454,1000,1571760935,3
+Portugal,IL,Israel,1,13,65,989,1000,1571760935,4
+Portugal,IM,Isle Of Man,1,13,65,0,1000,1571760935,0
+Portugal,IN,India,1,13,65,1476,3200,1571760935,4
+Portugal,IO,British Indian Ocean Territory,1,13,65,0,1000,1571760935,0
+Portugal,IQ,Iraq,1,13,65,798,1000,1571760935,3
+Portugal,IS,Iceland,1,13,65,855,1000,1571760935,4
+Portugal,IT,Italy,1,13,65,1009,1600,1571760935,4
+Portugal,JE,Jersey,1,13,65,1825,2000,1571760935,4
+Portugal,JM,Jamaica,1,13,65,0,1000,1571760935,0
+Portugal,JO,Jordan,1,13,65,0,1000,1571760935,0
+Portugal,JP,Japan,1,13,65,994,1000,1571760935,4
+Portugal,KE,Kenya,1,13,65,332,1000,1571760935,3
+Portugal,KG,Kyrgyzstan,1,13,65,0,1000,1571760935,0
+Portugal,KH,Cambodia,1,13,65,0,1000,1571760935,0
+Portugal,KI,Kiribati,1,13,65,0,1000,1571760935,0
+Portugal,KM,Comoros,1,13,65,0,1000,1571760935,0
+Portugal,KN,Saint Kitts and Nevis,1,13,65,0,1000,1571760935,0
+Portugal,KR,South Korea,1,13,65,994,1000,1571760935,4
+Portugal,KW,Kuwait,1,13,65,497,1000,1571760935,3
+Portugal,KY,Cayman Islands,1,13,65,0,1000,1571760935,0
+Portugal,KZ,Kazakhstan,1,13,65,0,1000,1571760935,0
+Portugal,LA,Laos,1,13,65,0,1000,1571760935,0
+Portugal,LB,Lebanon,1,13,65,664,1000,1571760935,3
+Portugal,LC,St. Lucia,1,13,65,0,1000,1571760935,0
+Portugal,LI,Liechtenstein,1,13,65,0,1000,1571760935,0
+Portugal,LK,Sri Lanka,1,13,65,0,1000,1571760935,0
+Portugal,LR,Liberia,1,13,65,0,1000,1571760935,0
+Portugal,LS,Lesotho,1,13,65,994,1000,1571760935,4
+Portugal,LT,Lithuania,1,13,65,0,1000,1571760935,0
+Portugal,LU,Luxembourg,1,13,65,13900,16000,1571760935,4
+Portugal,LV,Latvia,1,13,65,0,1000,1571760935,0
+Portugal,LY,Libya,1,13,65,989,1000,1571760935,4
+Portugal,MA,Morocco,1,13,65,590,1300,1571760935,3
+Portugal,MC,Monaco,1,13,65,994,1000,1571760935,4
+Portugal,MD,Moldova,1,13,65,989,1000,1571760935,4
+Portugal,ME,Montenegro,1,13,65,0,1000,1571760935,0
+Portugal,MF,Saint Martin,1,13,65,0,1000,1571760935,0
+Portugal,MG,Madagascar,1,13,65,994,1000,1571760935,4
+Portugal,MH,Marshall Islands,1,13,65,0,1000,1571760935,0
+Portugal,MK,Macedonia,1,13,65,0,1000,1571760935,0
+Portugal,ML,Mali,1,13,65,989,1000,1571760935,4
+Portugal,MM,Myanmar,1,13,65,0,1000,1571760935,0
+Portugal,MN,Mongolia,1,13,65,0,1000,1571760935,0
+Portugal,MO,Macau,1,13,65,823,1000,1571760935,3
+Portugal,MP,Northern Mariana Islands,1,13,65,0,1000,1571760935,0
+Portugal,MQ,Martinique,1,13,65,0,1000,1571760935,0
+Portugal,MR,Mauritania,1,13,65,0,1000,1571760935,0
+Portugal,CV,Cape Verde,2,13,65,1895,2900,1571760935,4
+Portugal,ID,Indonesia,2,13,65,1379,2300,1571760935,4
+Portugal,IE,Ireland,2,13,65,831,1000,1571760935,3
+Portugal,IL,Israel,2,13,65,0,1000,1571760935,0
+Portugal,IM,Isle Of Man,2,13,65,0,1000,1571760935,0
+Portugal,IN,India,2,13,65,374,1000,1571760935,3
+Portugal,IO,British Indian Ocean Territory,2,13,65,0,1000,1571760935,0
+Portugal,IQ,Iraq,2,13,65,0,1000,1571760935,0
+Portugal,IS,Iceland,2,13,65,994,1000,1571760935,4
+Portugal,IT,Italy,2,13,65,1222,1600,1571760935,4
+Portugal,JE,Jersey,2,13,65,1865,2100,1571760935,4
+Portugal,JM,Jamaica,2,13,65,0,1000,1571760935,0
+Portugal,JO,Jordan,2,13,65,497,1000,1571760935,3
+Portugal,JP,Japan,2,13,65,0,1000,1571760935,0
+Portugal,KE,Kenya,2,13,65,0,1000,1571760935,0
+Portugal,KG,Kyrgyzstan,2,13,65,0,1000,1571760935,0
+Portugal,KH,Cambodia,2,13,65,0,1000,1571760935,0
+Portugal,KI,Kiribati,2,13,65,0,1000,1571760935,0
+Portugal,KM,Comoros,2,13,65,0,1000,1571760935,0
+Portugal,KN,Saint Kitts and Nevis,2,13,65,0,1000,1571760935,0
+Portugal,KR,South Korea,2,13,65,989,1000,1571760935,4
+Portugal,KW,Kuwait,2,13,65,989,1000,1571760935,4
+Portugal,KY,Cayman Islands,2,13,65,0,1000,1571760935,0
+Portugal,KZ,Kazakhstan,2,13,65,0,1000,1571760935,0
+Portugal,LA,Laos,2,13,65,0,1000,1571760935,0
+Portugal,LB,Lebanon,2,13,65,0,1000,1571760935,0
+Portugal,LC,St. Lucia,2,13,65,0,1000,1571760935,0
+Portugal,LI,Liechtenstein,2,13,65,0,1000,1571760935,0
+Portugal,LK,Sri Lanka,2,13,65,0,1000,1571760935,0
+Portugal,LR,Liberia,2,13,65,0,1000,1571760935,0
+Portugal,LS,Lesotho,2,13,65,0,1000,1571760935,0
+Portugal,LT,Lithuania,2,13,65,994,1000,1571760935,4
+Portugal,LU,Luxembourg,2,13,65,13773,16000,1571760935,4
+Portugal,LV,Latvia,2,13,65,0,1000,1571760935,0
+Portugal,LY,Libya,2,13,65,0,1000,1571760935,0
+Portugal,MA,Morocco,2,13,65,332,1000,1571760935,3
+Portugal,MC,Monaco,2,13,65,997,1000,1571760935,4
+Portugal,MD,Moldova,2,13,65,989,1000,1571760935,4
+Portugal,ME,Montenegro,2,13,65,0,1000,1571760935,0
+Portugal,MF,Saint Martin,2,13,65,0,1000,1571760935,0
+Portugal,MG,Madagascar,2,13,65,0,1000,1571760935,0
+Portugal,MH,Marshall Islands,2,13,65,0,1000,1571760935,0
+Portugal,MK,Macedonia,2,13,65,0,1000,1571760935,0
+Portugal,ML,Mali,2,13,65,497,1000,1571760935,3
+Portugal,MM,Myanmar,2,13,65,989,1000,1571760935,4
+Portugal,MN,Mongolia,2,13,65,0,1000,1571760935,0
+Portugal,MO,Macau,2,13,65,664,1000,1571760935,3
+Portugal,MP,Northern Mariana Islands,2,13,65,0,1000,1571760935,0
+Portugal,MQ,Martinique,2,13,65,0,1000,1571760935,0
+Portugal,MR,Mauritania,2,13,65,989,1000,1571760935,4
+Portugal,CV,Cape Verde,1,13,65,2037,3300,1571760935,4
+Portugal,MS,Montserrat,1,13,65,0,1000,1571760935,0
+Portugal,MT,Malta,1,13,65,0,1000,1571760935,0
+Portugal,MU,Mauritius,1,13,65,0,1000,1571760935,0
+Portugal,MV,Maldives,1,13,65,0,1000,1571760935,0
+Portugal,MW,Malawi,1,13,65,989,1000,1571760935,4
+Portugal,MX,Mexico,1,13,65,6446,7900,1571760935,4
+Portugal,MY,Malaysia,1,13,65,570,1000,1571760935,3
+Portugal,MZ,Mozambique,1,13,65,1756,3100,1571760935,4
+Portugal,,Namibia,1,13,65,989,1000,1571760935,4
+Portugal,NC,New Caledonia,1,13,65,989,1000,1571760935,4
+Portugal,NE,Niger,1,13,65,0,1000,1571760935,0
+Portugal,NF,Norfolk Island,1,13,65,0,1000,1571760935,0
+Portugal,NG,Nigeria,1,13,65,1490,4000,1571760935,4
+Portugal,NI,Nicaragua,1,13,65,989,1000,1571760935,4
+Portugal,NL,Netherlands,1,13,65,2499,3900,1571760935,4
+Portugal,NO,Norway,1,13,65,908,1000,1571760935,4
+Portugal,NP,Nepal,1,13,65,748,1000,1571760935,3
+Portugal,NR,Nauru,1,13,65,0,1000,1571760935,0
+Portugal,NU,Niue,1,13,65,0,1000,1571760935,0
+Portugal,NZ,New Zealand,1,13,65,0,1000,1571760935,0
+Portugal,OM,Oman,1,13,65,0,1000,1571760935,0
+Portugal,PA,Panama,1,13,65,498,1000,1571760935,3
+Portugal,PE,Peru,1,13,65,687,1000,1571760935,3
+Portugal,PF,French Polynesia,1,13,65,0,1000,1571760935,0
+Portugal,PG,Papua New Guinea,1,13,65,0,1000,1571760935,0
+Portugal,PH,Philippines,1,13,65,1812,3400,1571760935,4
+Portugal,PK,Pakistan,1,13,65,221,1000,1571760935,3
+Portugal,PL,Poland,1,13,65,997,1000,1571760935,4
+Portugal,PM,Saint Pierre and Miquelon,1,13,65,0,1000,1571760935,0
+Portugal,PN,Pitcairn,1,13,65,0,1000,1571760935,0
+Portugal,PR,Puerto Rico,1,13,65,0,1000,1571760935,0
+Portugal,PS,Palestine,1,13,65,0,1000,1571760935,0
+Portugal,PT,Portugal,1,13,65,2344,3300,1571760935,4
+Portugal,PW,Palau,1,13,65,0,1000,1571760935,0
+Portugal,PY,Paraguay,1,13,65,989,1000,1571760935,4
+Portugal,QA,Qatar,1,13,65,0,1000,1571760935,0
+Portugal,RE,Réunion,1,13,65,0,1000,1571760935,0
+Portugal,RO,Romania,1,13,65,996,1000,1571760935,4
+Portugal,RS,Serbia,1,13,65,0,1000,1571760935,0
+Portugal,RU,Russia,1,13,65,498,1000,1571760935,3
+Portugal,RW,Rwanda,1,13,65,0,1000,1571760935,0
+Portugal,SA,Saudi Arabia,1,13,65,332,1000,1571760935,3
+Portugal,SB,Solomon Islands,1,13,65,0,1000,1571760935,0
+Portugal,SC,Seychelles,1,13,65,0,1000,1571760935,0
+Portugal,SE,Sweden,1,13,65,768,1000,1571760935,3
+Portugal,SG,Singapore,1,13,65,996,1000,1571760935,4
+Portugal,SH,Saint Helena,1,13,65,0,1000,1571760935,0
+Portugal,SI,Slovenia,1,13,65,0,1000,1571760935,0
+Portugal,SJ,Svalbard and Jan Mayen,1,13,65,0,1000,1571760935,0
+Portugal,CV,Cape Verde,2,13,65,1895,2900,1571760935,4
+Portugal,MS,Montserrat,2,13,65,0,1000,1571760935,0
+Portugal,MT,Malta,2,13,65,0,1000,1571760935,0
+Portugal,MU,Mauritius,2,13,65,0,1000,1571760935,0
+Portugal,MV,Maldives,2,13,65,989,1000,1571760935,4
+Portugal,MW,Malawi,2,13,65,0,1000,1571760935,0
+Portugal,MX,Mexico,2,13,65,1480,2000,1571760935,4
+Portugal,MY,Malaysia,2,13,65,994,1000,1571760935,4
+Portugal,MZ,Mozambique,2,13,65,1019,1700,1571760935,4
+Portugal,,Namibia,2,13,65,0,1000,1571760935,0
+Portugal,NC,New Caledonia,2,13,65,0,1000,1571760935,0
+Portugal,NE,Niger,2,13,65,989,1000,1571760935,4
+Portugal,NF,Norfolk Island,2,13,65,0,1000,1571760935,0
+Portugal,NG,Nigeria,2,13,65,792,1700,1571760935,3
+Portugal,NI,Nicaragua,2,13,65,0,1000,1571760935,0
+Portugal,NL,Netherlands,2,13,65,2604,3200,1571760935,4
+Portugal,NO,Norway,2,13,65,831,1000,1571760935,3
+Portugal,NP,Nepal,2,13,65,0,1000,1571760935,0
+Portugal,NR,Nauru,2,13,65,0,1000,1571760935,0
+Portugal,NU,Niue,2,13,65,0,1000,1571760935,0
+Portugal,NZ,New Zealand,2,13,65,996,1000,1571760935,4
+Portugal,OM,Oman,2,13,65,0,1000,1571760935,0
+Portugal,PA,Panama,2,13,65,249,1000,1571760935,3
+Portugal,PE,Peru,2,13,65,332,1000,1571760935,3
+Portugal,PF,French Polynesia,2,13,65,0,1000,1571760935,0
+Portugal,PG,Papua New Guinea,2,13,65,0,1000,1571760935,0
+Portugal,PH,Philippines,2,13,65,2307,3900,1571760935,4
+Portugal,PK,Pakistan,2,13,65,0,1000,1571760935,0
+Portugal,PL,Poland,2,13,65,989,1000,1571760935,4
+Portugal,PM,Saint Pierre and Miquelon,2,13,65,0,1000,1571760935,0
+Portugal,PN,Pitcairn,2,13,65,0,1000,1571760935,0
+Portugal,PR,Puerto Rico,2,13,65,0,1000,1571760935,0
+Portugal,PS,Palestine,2,13,65,0,1000,1571760935,0
+Portugal,PT,Portugal,2,13,65,2114,2500,1571760935,4
+Portugal,PW,Palau,2,13,65,0,1000,1571760935,0
+Portugal,PY,Paraguay,2,13,65,0,1000,1571760935,0
+Portugal,QA,Qatar,2,13,65,996,1000,1571760935,4
+Portugal,RE,Réunion,2,13,65,989,1000,1571760935,4
+Portugal,RO,Romania,2,13,65,664,1000,1571760935,3
+Portugal,RS,Serbia,2,13,65,0,1000,1571760935,0
+Portugal,RU,Russia,2,13,65,0,1000,1571760935,0
+Portugal,RW,Rwanda,2,13,65,989,1000,1571760935,4
+Portugal,SA,Saudi Arabia,2,13,65,996,1000,1571760935,4
+Portugal,SB,Solomon Islands,2,13,65,0,1000,1571760935,0
+Portugal,SC,Seychelles,2,13,65,0,1000,1571760935,0
+Portugal,SE,Sweden,2,13,65,998,1000,1571760935,4
+Portugal,SG,Singapore,2,13,65,664,1000,1571760935,3
+Portugal,SH,Saint Helena,2,13,65,0,1000,1571760935,0
+Portugal,SI,Slovenia,2,13,65,0,1000,1571760935,0
+Portugal,SJ,Svalbard and Jan Mayen,2,13,65,0,1000,1571760935,0
+Portugal,SK,Slovakia,1,13,65,989,1000,1571760935,4
+Portugal,SL,Sierra Leone,1,13,65,0,1000,1571760935,0
+Portugal,SM,San Marino,1,13,65,0,1000,1571760935,0
+Portugal,SN,Senegal,1,13,65,544,1000,1571760935,3
+Portugal,SO,Somalia,1,13,65,0,1000,1571760935,0
+Portugal,SR,Suriname,1,13,65,0,1000,1571760935,0
+Portugal,SS,South Sudan,1,13,65,0,1000,1571760935,0
+Portugal,ST,Sao Tome and Principe,1,13,65,0,1000,1571760935,0
+Portugal,SV,El Salvador,1,13,65,994,1000,1571760935,4
+Portugal,SX,Sint Maarten,1,13,65,0,1000,1571760935,0
+Portugal,SZ,Swaziland,1,13,65,0,1000,1571760935,0
+Portugal,TC,Turks and Caicos Islands,1,13,65,0,1000,1571760935,0
+Portugal,TD,Chad,1,13,65,0,1000,1571760935,0
+Portugal,TF,French Southern Territories,1,13,65,0,1000,1571760935,0
+Portugal,TG,Togo,1,13,65,994,1000,1571760935,4
+Portugal,TH,Thailand,1,13,65,749,1000,1571760935,3
+Portugal,TJ,Tajikistan,1,13,65,0,1000,1571760935,0
+Portugal,TK,Tokelau,1,13,65,0,1000,1571760935,0
+Portugal,TL,Timor-Leste,1,13,65,285,1000,1571760935,3
+Portugal,TM,Turkmenistan,1,13,65,0,1000,1571760935,0
+Portugal,TN,Tunisia,1,13,65,2096,3100,1571760935,4
+Portugal,TO,Tonga,1,13,65,0,1000,1571760935,0
+Portugal,TR,Turkey,1,13,65,332,1000,1571760935,3
+Portugal,TT,Trinidad and Tobago,1,13,65,989,1000,1571760935,4
+Portugal,TV,Tuvalu,1,13,65,0,1000,1571760935,0
+Portugal,TW,Taiwan,1,13,65,0,1000,1571760935,0
+Portugal,TZ,Tanzania,1,13,65,0,1000,1571760935,0
+Portugal,UA,Ukraine,1,13,65,598,1000,1571760935,3
+Portugal,UG,Uganda,1,13,65,0,1000,1571760935,0
+Portugal,UM,United States Minor Outlying Islands,1,13,65,0,1000,1571760935,0
+Portugal,US,United States,1,13,65,15180,20000,1571760935,4
+Portugal,UY,Uruguay,1,13,65,497,1000,1571760935,3
+Portugal,UZ,Uzbekistan,1,13,65,0,1000,1571760935,0
+Portugal,VA,Vatican City,1,13,65,0,1000,1571760935,0
+Portugal,VC,Saint Vincent and the Grenadines,1,13,65,0,1000,1571760935,0
+Portugal,VE,Venezuela,1,13,65,1399,2900,1571760935,4
+Portugal,VG,British Virgin Islands,1,13,65,0,1000,1571760935,0
+Portugal,VI,US Virgin Islands,1,13,65,0,1000,1571760935,0
+Portugal,VN,Vietnam,1,13,65,332,1000,1571760935,3
+Portugal,VU,Vanuatu,1,13,65,0,1000,1571760935,0
+Portugal,WF,Wallis and Futuna,1,13,65,0,1000,1571760935,0
+Portugal,WS,Samoa,1,13,65,0,1000,1571760935,0
+Portugal,XK,Kosovo,1,13,65,0,1000,1571760935,0
+Portugal,YE,Yemen,1,13,65,0,1000,1571760935,0
+Portugal,YT,Mayotte,1,13,65,0,1000,1571760935,0
+Portugal,ZA,South Africa,1,13,65,799,1600,1571760935,3
+Portugal,ZM,Zambia,1,13,65,0,1000,1571760935,0
+Portugal,ZW,Zimbabwe,1,13,65,0,1000,1571760935,0
+Portugal,SK,Slovakia,2,13,65,0,1000,1571760935,0
+Portugal,SL,Sierra Leone,2,13,65,0,1000,1571760935,0
+Portugal,SM,San Marino,2,13,65,0,1000,1571760935,0
+Portugal,SN,Senegal,2,13,65,285,1000,1571760935,3
+Portugal,SO,Somalia,2,13,65,0,1000,1571760935,0
+Portugal,SR,Suriname,2,13,65,0,1000,1571760935,0
+Portugal,SS,South Sudan,2,13,65,0,1000,1571760935,0
+Portugal,ST,Sao Tome and Principe,2,13,65,332,1000,1571760935,3
+Portugal,SV,El Salvador,2,13,65,497,1000,1571760935,3
+Portugal,SX,Sint Maarten,2,13,65,0,1000,1571760935,0
+Portugal,SZ,Swaziland,2,13,65,0,1000,1571760935,0
+Portugal,TC,Turks and Caicos Islands,2,13,65,0,1000,1571760935,0
+Portugal,TD,Chad,2,13,65,0,1000,1571760935,0
+Portugal,TF,French Southern Territories,2,13,65,0,1000,1571760935,0
+Portugal,TG,Togo,2,13,65,0,1000,1571760935,0
+Portugal,TH,Thailand,2,13,65,0,1000,1571760935,0
+Portugal,TJ,Tajikistan,2,13,65,0,1000,1571760935,0
+Portugal,TK,Tokelau,2,13,65,0,1000,1571760935,0
+Portugal,TL,Timor-Leste,2,13,65,249,1000,1571760935,3
+Portugal,TM,Turkmenistan,2,13,65,0,1000,1571760935,0
+Portugal,TN,Tunisia,2,13,65,1839,2400,1571760935,4
+Portugal,TO,Tonga,2,13,65,0,1000,1571760935,0
+Portugal,TR,Turkey,2,13,65,0,1000,1571760935,0
+Portugal,TT,Trinidad and Tobago,2,13,65,0,1000,1571760935,0
+Portugal,TV,Tuvalu,2,13,65,0,1000,1571760935,0
+Portugal,TW,Taiwan,2,13,65,0,1000,1571760935,0
+Portugal,TZ,Tanzania,2,13,65,0,1000,1571760935,0
+Portugal,UA,Ukraine,2,13,65,665,1000,1571760935,3
+Portugal,UG,Uganda,2,13,65,0,1000,1571760935,0
+Portugal,UM,United States Minor Outlying Islands,2,13,65,0,1000,1571760935,0
+Portugal,US,United States,2,13,65,18789,24000,1571760935,4
+Portugal,UY,Uruguay,2,13,65,994,1000,1571760935,4
+Portugal,UZ,Uzbekistan,2,13,65,0,1000,1571760935,0
+Portugal,VA,Vatican City,2,13,65,0,1000,1571760935,0
+Portugal,VC,Saint Vincent and the Grenadines,2,13,65,0,1000,1571760935,0
+Portugal,VE,Venezuela,2,13,65,1386,2700,1571760935,4
+Portugal,VG,British Virgin Islands,2,13,65,0,1000,1571760935,0
+Portugal,VI,US Virgin Islands,2,13,65,0,1000,1571760935,0
+Portugal,VN,Vietnam,2,13,65,0,1000,1571760935,0
+Portugal,VU,Vanuatu,2,13,65,0,1000,1571760935,0
+Portugal,WF,Wallis and Futuna,2,13,65,0,1000,1571760935,0
+Portugal,WS,Samoa,2,13,65,0,1000,1571760935,0
+Portugal,XK,Kosovo,2,13,65,0,1000,1571760935,0
+Portugal,YE,Yemen,2,13,65,0,1000,1571760935,0
+Portugal,YT,Mayotte,2,13,65,0,1000,1571760935,0
+Portugal,ZA,South Africa,2,13,65,843,1500,1571760935,4
+Portugal,ZM,Zambia,2,13,65,0,1000,1571760935,0
+Portugal,ZW,Zimbabwe,2,13,65,989,1000,1571760935,4

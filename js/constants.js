@@ -1,7 +1,10 @@
 const topologyFile = "data/countries.geojson";
 const migFile = "data/mig_data.csv";
+const estFile = "data/5yearestimates.csv";
+const unFile = "data/un_data_formatted.csv"
 const tradeNetFile = "data/2017.json";
-const migDistFile = "data/portugal.csv";
+const migDistFile = "data/formatted_fromPortugal4.csv";
+const porFile = "data/formatted_fromPortugal3.csv";
 
 const mapMargins = {
 	"top": 20,
@@ -24,6 +27,9 @@ const legendWidth = parseInt(w*legendRatioWidth);
 
 var ColorInterpolatorOpt1 = d3.interpolateYlOrRd;
 var ColorInterpolatorOpt2 = d3.interpolateYlGnBu;
+var ColorInterpolatorOpt3 = d3.interpolatePuRd;
+var ColorInterpolatorOpt4 = d3.interpolateReds;
+var ColorInterpolatorOpt5 = d3.interpolateGreens;
 
 var emptyColor = "#f0f0f0";
 
@@ -31,12 +37,15 @@ const initLoc = [30, 0];
 const initZoom = 3;
 
 const layerInterpolator = {
-	"Migration/Population Ratio": ColorInterpolatorOpt1,
-	"Facebook Estimates of Migration": ColorInterpolatorOpt2
+	"Facebook Migration Est./Population Ratio": ColorInterpolatorOpt1,
+	"Facebook Estimates of Migration": ColorInterpolatorOpt2,
+	"Estimation of Emigration": ColorInterpolatorOpt3,
+	"UN Migrant Stock (2019)": ColorInterpolatorOpt4,
+	"Portugal Layer": ColorInterpolatorOpt5
 };
 
 const tableColumns = [
-    {"title": "Country", "field": "Country_Names", "align": "center"},
+    {"title": "Country", "field": "country_name", "align": "center"},
     {"title": "Daily Audience", "field": "Daily_Audience", "align": "center"},
     {"title": "Norm. Daily Audience", "field": "Daily_Audience_Per", "align": "center", formatter:"money", formatterParams:{
 		    decimal:".",
@@ -55,5 +64,4 @@ const tableColumns = [
 ];
 
 const tableDivName = "#migDistTable";
-
 const linkColor = "#737373";
