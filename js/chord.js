@@ -80,3 +80,12 @@ svg.append("g")
         .text(d => `${names[d.index]}
 owes ${formatValue(d3.sum(matrix[d.index]))}
 is owed ${formatValue(d3.sum(matrix, row => row[d.index]))}`));
+
+svg.append("text")
+    .attr("class", "netTitle")
+    .attr("x", -width/2 + 10)
+    .attr("y", -height/2 + 15)
+    .attr("font-size", 10)
+    .attr("font-weight", "bold")
+    .style("font-family", "sans-serif")
+    .text("Trade Network of Portugal");

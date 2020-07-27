@@ -92,7 +92,7 @@ Promise.all([
 
                         //updateNet(extractEgo(_.cloneDeep(tradeNet), ISO_A3), controller, table, ISO_map);
 
-                        $("#cName").text(" Trade Network of " + name_map[ISO_A3]);
+                        //$("#cName").text(" Trade Network of " + name_map[ISO_A3]);
 
                         let mapLayers = base_map._layers;
                         for (l in mapLayers) {
@@ -145,7 +145,7 @@ Promise.all([
 
                         //updateNet(extractEgo(_.cloneDeep(tradeNet), ISO_A3), controller, table, ISO_map);
 
-                        $("#cName").text(" Trade Network of " + name_map[ISO_A3]);
+                        //$("#cName").text(" Trade Network of " + name_map[ISO_A3]);
 
                         let mapLayers = base_map._layers;
                         for (l in mapLayers) {
@@ -197,7 +197,7 @@ Promise.all([
 
                         //updateNet(extractEgo(_.cloneDeep(tradeNet), ISO_A3), controller, table, ISO_map);
 
-                        $("#cName").text(" Trade Network of " + name_map[ISO_A3]);
+                        //$("#cName").text(" Trade Network of " + name_map[ISO_A3]);
 
                         let mapLayers = base_map._layers;
                         for (l in mapLayers) {
@@ -260,7 +260,8 @@ Promise.all([
 
                         //updateNet(extractEgo(_.cloneDeep(tradeNet), ISO_A3), controller, table, ISO_map);
 
-                        $("#cName").text(" Trade Network of " + name_map[ISO_A3]);
+                        //$("#cName").text(" Trade Network of " + name_map[ISO_A3]);
+                        $("#netSVG").style("opacity", 1);
 
                         let mapLayers = base_map._layers;
                         for (l in mapLayers) {
