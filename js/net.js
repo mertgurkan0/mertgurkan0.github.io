@@ -17,13 +17,13 @@ function SimF(svgname) {
 
     this.ego_g = this.ego_svg.append("g")
         .attr("class", "tradeNets")
-        .attr("transform","translate(0,-10) scale(.6,.6)");
+        .attr("transform","translate(0,-10) scale(1.2, 1.2)");
+
+    this.ego_g.append("g")
+    .attr("class", "links");
 
     this.ego_g.append("g")
         .attr("class", "nodes");
-
-    this.ego_g.append("g")
-        .attr("class", "links");
 
     this.zoom_handler_ego = d3.zoom()
         .on("zoom", () => {
@@ -31,7 +31,7 @@ function SimF(svgname) {
         });
 
     this.zoom_handler_ego(this.ego_svg);
-    this.ego_svg.call(this.zoom_handler_ego.transform, d3.zoomIdentity.translate(0, 0).scale(0.6));
+    this.ego_svg.call(this.zoom_handler_ego.transform, d3.zoomIdentity.translate(0, 0).scale(1.2));
 
     this.simulation_ego = d3.forceSimulation()
         .force("link", d3.forceLink().id(function(d) {return d.id;}))
@@ -59,7 +59,6 @@ function SimF(svgname) {
 }
 
 function updateNet(net, cont, table, ISO_map) {
-    
     let nodes = net.nodes;
     let links = net.links;
     links = links.sort((a,b) => d3.descending(a.import, b.import)).slice(0,21);
@@ -74,7 +73,23 @@ function updateNet(net, cont, table, ISO_map) {
 
     let colorScaler = d3.scaleLinear()
         .domain(d3.extent(links.map((d) => +d["export"])))
-        .range(["#fff5f0", "#99000d"]);
+        .range(["#e87474", "#99000d"]);
+
+    let ego_link = cont.ego_g.selectAll("g.links").selectAll("line").data(links, function(d) {
+        return "l" + d.source + "_" + d.target;
+    });
+
+    ego_link.exit().remove();
+
+    ego_link = ego_link.enter().append("line")
+        .attr("id", function(d) {
+            return "l" + d.source + "_" + d.target;
+        })
+        .attr("stroke-width", function(d) {
+            return 1;
+        })
+        .attr("stroke", linkColor)
+        .merge(ego_link);
 
     let ego_node = cont.ego_g.select("g.nodes").selectAll("circle").data(nodes, (d) => {
         var comp = "";
@@ -114,22 +129,6 @@ function updateNet(net, cont, table, ISO_map) {
             .on("start", cont.dragStarted)
             .on("drag", cont.dragged)
             .on("end", cont.dragEnded));
-
-    let ego_link = cont.ego_g.selectAll("g.links").selectAll("line").data(links, function(d) {
-        return "l" + d.source + "_" + d.target;
-    });
-
-    ego_link.exit().remove();
-
-    ego_link = ego_link.enter().append("line")
-        .attr("id", function(d) {
-            return "l" + d.source + "_" + d.target;
-        })
-        .attr("stroke-width", function(d) {
-            return 0.5;
-        })
-        .attr("stroke", linkColor)
-        .merge(ego_link);
 
     cont.simulation_ego.nodes(nodes).on("tick", ticked);
     cont.simulation_ego.force("link").links(links);

@@ -1,6 +1,16 @@
+.body{
+	overflow-y: hidden;
+}
+
+#main-container{
+	background-color: #f0f0f0;
+}
+
 #map-container {
 	position: relative;
 	width: 100%;
+	border-radius: 10px;
+	background-color: #f0f0f0;
 }
 
 .legend {
@@ -11,6 +21,7 @@
 	color: #555;
 	border-radius: 8px;
 	opacity: 0.8;
+	width: 150px;
 }
 
 .legend i {
@@ -20,3 +31,37 @@
 	margin-right: 8px;
 }
 
+#stats-container {
+	background-color: #f0f0f0;
+}
+
+#migDistTable {
+	margin-top: 10px;
+	border-radius: 10px;
+}
+
+#netContainer{
+	text-align: center;
+}
+
+#cName{
+	margin-top: 12px;
+}
+
+#lineUpContainer{
+	margin-top: 12px;
+	margin-bottom: 20px;
+}
+
+#lineUpTable{
+	border-radius: 2px;
+}
+
+.leaflet-control-layers-base {
+	margin-top: 10px;
+}
+
+.leaflet-control-layers-overlays{
+	text-align: center;
+	font-size: 1.5em;
+}
