@@ -62,6 +62,11 @@ function updateNet(net, cont, table, ISO_map) {
     
     let nodes = net.nodes;
     let links = net.links;
+    links = links.sort((a,b) => d3.descending(a.import, b.import)).slice(0,21);
+    let ids = links.map(d => d.target);
+    let source = links[0]["source"];
+    nodes = nodes.filter(d => ids.includes(d.id));
+    nodes.push({"id": source});
 
     let sizeScaler = d3.scaleLinear()
         .domain(d3.extent(links.map((d) => +d["import"])))
