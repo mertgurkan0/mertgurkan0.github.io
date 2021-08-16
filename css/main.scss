@@ -145,15 +145,16 @@ button {
   //size options
   width: 120px;
   @media screen and (max-width: 991px){
-    width: 60px;
+    width: 70px;
     margin-left: 5px;
-    font-size: 8px;
-    text-align: center;
+    font-size: 9px;
+    line-height: 12px;
   }
   @media screen and (max-width: 670px){
-    width: 50px;
+    width: 60px;
     margin-left: 2px;
-    font-size: 6px;
+    font-size: 8px;
+    line-height: 12px;
   }
 }
 
@@ -270,4 +271,8 @@ a, a:hover, a:visited, a:active {
     font-family: 'MonteCarlo', cursive;
     font-weight: 600;
     font-size: 24px;
+    @media screen and (max-width: 670px){
+      font-size: 12px;
+      margin-left: -12px;
+    }
 }
